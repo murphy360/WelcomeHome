@@ -34,12 +34,12 @@ public class AndriosData {
                 "School", "8774384451", R.drawable.otay_ranch_academy_arts_icon, R.drawable.otay_ranch_academy_arts_icon));
         builder.add(new Location ("Corky McMillin Elementary School", "1201 Santa Cora Ave", "Chula Vista", "CA" , "91913",  "School Hours",
                 "School", "6193970103", R.drawable.corky_mcmillan_icon, R.drawable.corky_mcmillan_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
+        builder.add(new Location ("High Tech High", "1945 Hunte Pkwy", "Chula Vista", "CA" , "91915",  "School Hours",
+                "School", "6199512500", R.drawable.high_tech_high_icon, R.drawable.high_tech_high_poster));
+        builder.add(new Location ("Mater Dei Catholic High School", "1615 Mater Dei Dr.", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6194232121", R.drawable.mater_dei_icon, R.drawable.mater_dei_poster));
+        builder.add(new Location ("Olympian High School", "1925 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6196562400", R.drawable.olympian_icon, R.drawable.olympian_poster));
         return builder;
     }
 
