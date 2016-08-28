@@ -50,10 +50,8 @@ public class AndriosData {
 
         //String name, String address, String hours, String locationType, String phoneNumber, int imageIcon, int imagePoster
 
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_icon, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Otay Ranch Academy of the Arts", "1615 Mater Dei Dr.", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.otay_ranch_academy_arts_icon, R.drawable.otay_ranch_academy_arts_icon));
+        builder.add(new Location ("Mater Dei Parish", "1571 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
+                "Church", "6196563735", R.drawable.church_mater_dei_icon, R.drawable.church_mater_dei_poster));
         builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
                 "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
         builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
