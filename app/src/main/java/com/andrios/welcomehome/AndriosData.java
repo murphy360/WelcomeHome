@@ -71,18 +71,18 @@ public class AndriosData {
 
         //String name, String address, String hours, String locationType, String phoneNumber, int imageIcon, int imagePoster
 
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
+        builder.add(new Location ("Santa Venetia Park", "1500 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
+                "Park", "None", R.drawable.park_santa_venetia_poster));
+        builder.add(new Location ("All Seasons Park", "1825 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6192161226", R.drawable.park_all_seasons_poster));
+        builder.add(new Location ("Harvest Park", "1550 E Palomar St", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6192161226", R.drawable.park_harvest_poster));
+        builder.add(new Location ("Cottonwood Park", "1778 E Palomar St", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6192161226", R.drawable.park_cottonwood_poster));
+        builder.add(new Location ("Sunset View Park", " ", "Chula Vista", "CA" , "91913",  "School Hours",
+                "School", "6192161226", R.drawable.park_sunset_view_poster));
+        builder.add(new Location ("Chula Vista Community Park", "1060 Eastlake Pkwy", "Chula Vista", "CA" , "91915",  "School Hours",
+                "School", "6192161226", R.drawable.park_chula_vista_community_poster));
 
         return builder;
     }
