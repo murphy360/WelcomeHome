@@ -38,7 +38,7 @@ public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 1){
             return new ChurchFragment();
         } else if (position == 2) {
-            return new SchoolFragment();
+            return new ParkFragment();
         }  else {
             return new SchoolFragment();
         }
