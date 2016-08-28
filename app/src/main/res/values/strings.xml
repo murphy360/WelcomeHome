@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Welcome Home</string>
+    <string name="category_school">Schools</string>
+    <string name="category_church">Churches</string>
+    <string name="category_park">Parks</string>
+    <string name="category_grocerie">Grocerie</string>
+</resources>
