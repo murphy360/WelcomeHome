@@ -52,14 +52,14 @@ public class AndriosData {
 
         builder.add(new Location ("Mater Dei Parish", "1571 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
                 "Church", "6196563735", R.drawable.church_mater_dei_icon, R.drawable.church_mater_dei_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
-        builder.add(new Location ("Veterans Elementary School", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
-                "School", "6192161226", R.drawable.veterans_elementary_poster, R.drawable.veterans_elementary_poster));
+        builder.add(new Location ("Calvary Chapel", "1771 E Palomar St", "Chula Vista", "CA" , "91913",  "School Hours",
+                "Church", "6194211100", R.drawable.church_calvary_icon, R.drawable.church_calvary_poster));
+        builder.add(new Location ("Eastlake Church", "1550 Magdalena Ave", "Chula Vista", "CA" , "91913",  "School Hours",
+                "Church", "6194214100", R.drawable.church_eastlake_icon, R.drawable.church_eastlake_poster));
+        builder.add(new Location ("Concordia Church", "1695 Discovery Falls Dr.", "Chula Vista", "CA" , "91915",  "School Hours",
+                "School", "6196568100", R.drawable.church_concordia_icon, R.drawable.church_concordia_poster));
+        builder.add(new Location ("Temple Beth Shalom", "208 Madrona St.", "Chula Vista", "CA" , "91910",  "School Hours",
+                "School", "6194206040", R.drawable.church_temple_beth_shalom_icon, R.drawable.church_temple_beth_shalom_poster));
 
         return builder;
     }
