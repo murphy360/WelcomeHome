@@ -40,7 +40,7 @@ public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return new ParkFragment();
         }  else {
-            return new SchoolFragment();
+            return new GroceryFragment();
         }
 
     }
@@ -55,7 +55,7 @@ public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return mContext.getString(R.string.category_park);
         }  else {
-            return mContext.getString(R.string.category_grocerie);
+            return mContext.getString(R.string.category_grocery);
         }
     }
 
