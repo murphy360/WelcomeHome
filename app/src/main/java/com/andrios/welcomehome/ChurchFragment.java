@@ -14,15 +14,15 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * This fragment will display a simple list of schools in the Chula Vista Area
+ * This fragment will display a simple list of churches in the Chula Vista Area
  */
-public class SchoolFragment extends Fragment {
+public class ChurchFragment extends Fragment {
 
     /**
      * Class Constructor
      * Should be empty
      */
-    public SchoolFragment() {
+    public ChurchFragment() {
         // Required empty public constructor
     }
 
@@ -36,12 +36,12 @@ public class SchoolFragment extends Fragment {
         //of the rest of the app.
         AndriosData ad = new AndriosData();
 
-        // get a list of schools
-        ArrayList<Location> schools = ad.getSchools();
+        // get a list of churches
+        ArrayList<Location> churches = ad.getChurches();
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        LocationAdapter adapter = new LocationAdapter(getContext(), schools, R.color.category_schools);
+        LocationAdapter adapter = new LocationAdapter(getContext(), churches, R.color.category_churches);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

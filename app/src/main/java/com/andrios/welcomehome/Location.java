@@ -18,6 +18,19 @@ public class Location {
     /** Constant value that represents no image was provided for this word */
     private static final int NO_IMAGE_PROVIDED = -1;
 
+    /**
+     * Constructor with icon
+     * @param name
+     * @param address
+     * @param city
+     * @param state
+     * @param zipCode
+     * @param hours
+     * @param locationType
+     * @param phoneNumber
+     * @param imageIcon
+     * @param imagePoster
+     */
     public Location(String name, String address, String city, String state, String zipCode,
                     String hours, String locationType, String phoneNumber,
                     int imageIcon, int imagePoster){
@@ -30,6 +43,32 @@ public class Location {
         this.locationType = locationType;
         this.phoneNumber = phoneNumber;
         this.imageIcon = imageIcon;
+        this.imagePoster = imagePoster;
+    }
+
+    /**
+     * Constructor without Icon
+     * @param name
+     * @param address
+     * @param city
+     * @param state
+     * @param zipCode
+     * @param hours
+     * @param locationType
+     * @param phoneNumber
+     * @param imagePoster
+     */
+    public Location(String name, String address, String city, String state, String zipCode,
+                    String hours, String locationType, String phoneNumber,
+                    int imagePoster){
+        this.name = name;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zipCode = zipCode;
+        this.hours = hours;
+        this.locationType = locationType;
+        this.phoneNumber = phoneNumber;
         this.imagePoster = imagePoster;
     }
 
