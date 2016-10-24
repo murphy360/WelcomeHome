@@ -34,7 +34,7 @@ public class ParkFragment extends Fragment {
 
         //This object creates all sample data for the app.  Keeps fake data building routines out
         //of the rest of the app.
-        AndriosData ad = new AndriosData();
+        AndriosData ad = new AndriosData(this.getActivity().getApplicationContext());
 
         // get a list of parks
         ArrayList<Location> parks = ad.getParks();

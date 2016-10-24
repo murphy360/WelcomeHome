@@ -3,6 +3,7 @@ package com.andrios.welcomehome;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +35,8 @@ public class ChurchFragment extends Fragment {
 
         //This object creates all sample data for the app.  Keeps fake data building routines out
         //of the rest of the app.
-        AndriosData ad = new AndriosData();
+        Log.d("TAG", "Initiate Andrios Data Church Fragment");
+        AndriosData ad = new AndriosData(this.getActivity().getApplicationContext());
 
         // get a list of churches
         ArrayList<Location> churches = ad.getChurches();
